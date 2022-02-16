@@ -1,0 +1,47 @@
+/*GLOBAL*/
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+body {
+  height: auto;
+  color: #222222;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 60px 0px 0px 0px;
+}
+/*CONTAINER*/
+.container {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px;
+  /*Style*/
+  background-color: rgb(216, 216, 216);
+  border: 2px solid #7c7c7c;
+  /*Shadow*/
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+/*AJUSTES*/
+div h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+div h2 {
+  margin-bottom: 8px;
+}
+
+div p {
+  margin-bottom: 8px;
+}
+
+div input {
+  margin-bottom: 16px;
+}

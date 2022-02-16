@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex5_2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Descubra o número:</h1>
+      <hr />
+      <p>
+        <input type="text" id="inNumero" autofocus />
+        <input type="button" value="Apostar" id="btApostar" />
+        <input
+          type="button"
+          value="Jogar novamente"
+          id="btJogarNovamente"
+          class="oculta"
+        />
+      </p>
+      <h2>
+        Erros:
+        <span id="outErros">0</span>
+      </h2>
+      <h2>
+        Chances:
+        <span id="outChances">0</span>
+      </h2>
+      <h2 id="outDicas" class="italico">Dica: É um número entre 1 e 100.</h2>
+    </div>
+    <script src="script.js"></script>
+    <!--SCRIPT-->
+  </body>
+</html>

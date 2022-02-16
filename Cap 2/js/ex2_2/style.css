@@ -1,0 +1,27 @@
+/*Global*/
+h1,
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+  box-sizing: border-box;
+  height: auto;
+}
+
+/*Container*/
+.container {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px;
+}
+
+/*Ajustes*/
+div p {
+  margin-bottom: 16px;
+}
